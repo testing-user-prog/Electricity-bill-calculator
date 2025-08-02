@@ -11,16 +11,18 @@
   
    
     <div id="main">
-       <h2>GPA Calculator</h2>
-    <label for="coursecount">Number of courses</label>
+       <h2>Electricity Unit Calculator</h2>
+    <label for="devicecount">No. of Appliances: </label>
   
-    <input type="number" min="1" id="coursecount">
+    <input type="number" min="1" id="devicecount"><br>
+    <label for="days">Number of Days: </label>
+    <input type="number" id="days" value="30" min="1"><br> 
       <button id="enter" onclick="elementsvisible()">Submit</button>
       <button id="reset" onclick="restart()">Reset</button>
-    <form id="input">
+    <div id="input">
        
 
-    </form>
+    </div>
     
     
     
@@ -28,6 +30,11 @@
         
     </div>
     <p id="final"></p>
+    <div id="proceed">
+
+    </div>
+    <p id="monthbill"></p>
+
     </div>
     
     <script src="script.js"></script>
