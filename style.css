@@ -18,6 +18,16 @@ body
      
     
 }
+
+#enter,#reset
+{
+    margin-bottom:25px;
+}
+#devicecount
+{
+    margin-bottom: 4px;
+    text-align: center;
+}
 #ok
 {
     padding: 0px;
@@ -37,34 +47,36 @@ body
 
 
 }
-.grade
+.days
 {
     margin:2px;
+      width:75px;
     
+    text-align: center;
 }
 
-.course
+.appliance
 {
     margin:2px;
     text-align: center;
 }
-.course::placeholder
+.appliance::placeholder
 {
     text-align: center;
     color: #999;
 
 }
 
-.credits
+.power
 {
     width:75px;
     margin: 2px;
     text-align: center;
     
 }
-#coursecount
+#days
 {
-    margin-bottom: 5vh;
+    margin-bottom: 20px;
     text-align: center;
 
 }
@@ -73,37 +85,32 @@ body
 {
     margin-top:3vh;
 }
-@media(max-width:740px)
+@media(max-width:775px)
 {
-    #coursecount
+       #main
     {
-        width:20%;
+        width:90%;
     }
-    .course
-    {
-        width:25%;
-    }
+
 }
-@media(max-width:605px)
+
+@media(max-width:771px)
 {
-    .credits
-    {
-        width:15%;
-    }
-    .credits::placeholder
-    {
-        font-size: 9px;
-        
-    }
-    #coursecount
-    {
-        width:15%;
-    }
+      body
+   {
+    text-align: center;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+
+   }
+   
 }
-@media(max-width:550px)
+
+@media(max-width:650px)
 {
 
-   body
+   body,#main
    {
     width:100%;
     padding: 0px;
@@ -111,14 +118,28 @@ body
 
    }
 }
-@media(max-width:350px)
+@media(max-width:452px)
 {
     #main
     {
         border:2px transparent;
     }
-    .course
+    .appliance
     {
         width:20%;
     }
+    
+}
+#proceed
+{
+    margin: 0px;
+    padding: 0px;
+}
+#bill,#tax
+{
+    margin-bottom: 7px;
+}
+#tax
+{
+    text-align: center;
 }
