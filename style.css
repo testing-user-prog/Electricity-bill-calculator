@@ -1,0 +1,124 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    
+     margin-left:20vw;
+     margin-right: 20vw;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+     background-color: #fff;
+     margin-top: 25px;
+
+
+  
+   
+     
+     
+    
+}
+#ok
+{
+    padding: 0px;
+    margin:0px;
+}
+#main
+{
+    padding: 0px;
+    margin:0px;
+     border: 2px solid rgb(196, 175, 175);
+     border-radius: 12px;
+     text-align: center;
+     box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.1),     
+    0 8px 20px rgba(0, 0, 0, 0.15);   
+
+
+
+}
+.grade
+{
+    margin:2px;
+    
+}
+
+.course
+{
+    margin:2px;
+    text-align: center;
+}
+.course::placeholder
+{
+    text-align: center;
+    color: #999;
+
+}
+
+.credits
+{
+    width:75px;
+    margin: 2px;
+    text-align: center;
+    
+}
+#coursecount
+{
+    margin-bottom: 5vh;
+    text-align: center;
+
+}
+
+#submit
+{
+    margin-top:3vh;
+}
+@media(max-width:740px)
+{
+    #coursecount
+    {
+        width:20%;
+    }
+    .course
+    {
+        width:25%;
+    }
+}
+@media(max-width:605px)
+{
+    .credits
+    {
+        width:15%;
+    }
+    .credits::placeholder
+    {
+        font-size: 9px;
+        
+    }
+    #coursecount
+    {
+        width:15%;
+    }
+}
+@media(max-width:550px)
+{
+
+   body
+   {
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+
+   }
+}
+@media(max-width:350px)
+{
+    #main
+    {
+        border:2px transparent;
+    }
+    .course
+    {
+        width:20%;
+    }
+}
